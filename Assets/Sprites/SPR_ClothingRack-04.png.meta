@@ -1,0 +1,466 @@
+fileFormatVersion: 2
+guid: 8748ac87dfbd11e44bc6bfbd10bc4ff7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4362448824529398522
+    second: SPR_ClothingRack-04_0
+  - first:
+      213: -8212639078222254303
+    second: SPR_ClothingRack-04_1
+  - first:
+      213: -1656825473310088496
+    second: SPR_ClothingRack-04_2
+  - first:
+      213: 8674504873977729275
+    second: SPR_ClothingRack-04_3
+  - first:
+      213: -4259089164312175799
+    second: SPR_ClothingRack-04_4
+  - first:
+      213: -2371690268559716700
+    second: SPR_ClothingRack-04_5
+  - first:
+      213: 1700682345481462208
+    second: SPR_ClothingRack-04_6
+  - first:
+      213: -1351643827040524698
+    second: SPR_ClothingRack-04_7
+  - first:
+      213: 6700556505081814446
+    second: SPR_ClothingRack-04_8
+  - first:
+      213: -7883686700483099348
+    second: SPR_ClothingRack-04_9
+  - first:
+      213: 7517472955020867701
+    second: SPR_ClothingRack-04_10
+  - first:
+      213: -3390274660880294197
+    second: SPR_ClothingRack-04_11
+  - first:
+      213: 6143836486498604124
+    second: SPR_ClothingRack-04_12
+  - first:
+      213: 1908675633059589241
+    second: SPR_ClothingRack-04_0
+  - first:
+      213: -8395837300561847000
+    second: SPR_ClothingRack-04_1
+  - first:
+      213: 4520893172205574309
+    second: SPR_ClothingRack-04_2
+  - first:
+      213: -375295684972727311
+    second: SPR_ClothingRack-04_3
+  - first:
+      213: -4889429020487765499
+    second: SPR_ClothingRack-04_4
+  - first:
+      213: 7865148016287658933
+    second: SPR_ClothingRack-04_5
+  - first:
+      213: 1587544688749636731
+    second: SPR_ClothingRack-04_6
+  - first:
+      213: 5514721659552852812
+    second: SPR_ClothingRack-04_7
+  - first:
+      213: 6948597361926502472
+    second: SPR_ClothingRack-04_8
+  - first:
+      213: 6909044215317553966
+    second: SPR_ClothingRack-04_9
+  - first:
+      213: 776809214678395055
+    second: SPR_ClothingRack-04_10
+  - first:
+      213: -2188982667113145031
+    second: SPR_ClothingRack-04_11
+  - first:
+      213: -3623869818107189834
+    second: SPR_ClothingRack-04_12
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPR_ClothingRack-04_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 174
+        width: 386
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ce5fb206afc7a10800000000000000
+      internalID: 1908675633059589241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_ClothingRack-04_1
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 204
+        width: 62
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d590c457efb7b80800000000000000
+      internalID: -8395837300561847000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_ClothingRack-04_2
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 204
+        width: 63
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a85dcc23607dbe30800000000000000
+      internalID: 4520893172205574309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_ClothingRack-04_3
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 204
+        width: 63
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3b67b109eaacaf0800000000000000
+      internalID: -375295684972727311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_ClothingRack-04_4
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 204
+        width: 62
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502375f0632452cb0800000000000000
+      internalID: -4889429020487765499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_ClothingRack-04_5
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 58
+        width: 30
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3b1b0137e962d60800000000000000
+      internalID: 7865148016287658933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_ClothingRack-04_6
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 58
+        width: 30
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ceaf5bb77180610800000000000000
+      internalID: 1587544688749636731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_ClothingRack-04_7
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 78
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4becc0912a388c40800000000000000
+      internalID: 5514721659552852812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_ClothingRack-04_8
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 47
+        width: 61
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84878d44c706e6060800000000000000
+      internalID: 6948597361926502472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_ClothingRack-04_9
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 47
+        width: 61
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23687fab1bd1ef50800000000000000
+      internalID: 6909044215317553966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_ClothingRack-04_10
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 47
+        width: 60
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8e7237dd7c7ca00800000000000000
+      internalID: 776809214678395055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_ClothingRack-04_11
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 47
+        width: 61
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ddb3bacdb2f91e0800000000000000
+      internalID: -2188982667113145031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_ClothingRack-04_12
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 47
+        width: 61
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5267bb99d65bdc0800000000000000
+      internalID: -3623869818107189834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b33f3f7c363616747b1ebad8d2d62547
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
