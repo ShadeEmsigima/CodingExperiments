@@ -8,11 +8,12 @@ public class MyPlayerController : MonoBehaviour
 {
     [Tooltip("The speed at which this walks ya dummy")]
     public float WalkSpeed = 5;
+    [Tooltip("Speed at which you rotate")]
+    public float RotateSpeed = 5;
 
 
     void Start()
     {
-        Debug.Log("Game start");
     }
 
     
@@ -23,13 +24,27 @@ public class MyPlayerController : MonoBehaviour
             transform.position += transform.forward * Time.deltaTime * WalkSpeed;
         }
 
-        // if pressing 'a' > go 'left'
-        if (Input.GetKey("d")) { 
+        // if pressing 'a' > rotate left
+        if (Input.GetKey("a"))
+        {
+            transform.Rotate(Vector3.down * Time.deltaTime * RotateSpeed);
+           // transform.rotation += transform.rotation * Time.deltaTime * RotateSpeed;
+        }
+
+        // if pressing 'a' > rotate right
+        if (Input.GetKey("d"))
+        {
+            transform.Rotate(Vector3.up * Time.deltaTime * RotateSpeed);
+            // transform.rotation += transform.rotation * Time.deltaTime * RotateSpeed;
+        }
+
+        // if pressing 'a' > go strafe 'right'
+        if (Input.GetKey("e")) { 
             transform.position += transform.right * Time.deltaTime * WalkSpeed;
         }
 
-        // if pressing 'd' > go 'right'
-        if (Input.GetKey("a")) {
+        // if pressing 'd' > go strafe 'left'
+        if (Input.GetKey("q")) {
             transform.position += transform.right * -Time.deltaTime * WalkSpeed;
         }
 
