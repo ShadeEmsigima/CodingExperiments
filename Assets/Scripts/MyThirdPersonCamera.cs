@@ -5,7 +5,7 @@ using UnityEngine;
 public class MyThirdPersonCamera : MonoBehaviour
 {
     [Tooltip("Distance offset between player and camera")]
-    public float cameraOffset = 6;
+    public float distanceOffset = 6;
     [Tooltip("How fast one can zoom in and out")]
     public float zoomSpeed = 5;
     public float zoomMax = 8;
@@ -15,48 +15,65 @@ public class MyThirdPersonCamera : MonoBehaviour
     
 
     [Tooltip("Speed at which the camera will rotate around the player")]
-    public float rotationSpeed = 20;
+    public float rotationSpeed = 300;
     private GameObject _player;
 
     void Start()
     {
-       
+        //transform.position += _player.transform.position;
     }
 
     void Update()
     {
         _player = GameObject.FindWithTag("Player"); //declare player pos
-        FollowPlayer(); //alwaysfollow player
+        //FollowPlayer(); //alwaysfollow player
 
         //allow zooming
         if (Input.mouseScrollDelta != new Vector2(0f,0f)) { //if you are currently scrolling
             CheckScroll();
         }
-        
+
+        //allow rightclick rotating
+        if (Input.GetMouseButton(0)) {
+            RotateAroundPlayer();
+        }
     }
 
     void FollowPlayer() {
-        transform.position += _player.transform.position - transform.position + new Vector3 (0,cameraOffset,-cameraOffset);
+        //your start pos = player pos
+        //you set your offsets
+
+        transform.position += _player.transform.position - transform.position + new Vector3 (0,distanceOffset,-distanceOffset);
     }
 
     void CheckScroll() {
 
         //check if zoom in
         if (Input.mouseScrollDelta[1] > 0) { //if you scroll up
-            if (cameraOffset > zoomMin) { //make sure you havent scrolled too far in
-                cameraOffset -= zoomSpeed * Time.deltaTime; //zoom in
+            if (distanceOffset > zoomMin) { //make sure you havent scrolled too far in
+                distanceOffset -= zoomSpeed * Time.deltaTime; //zoom in
             }
         }
 
+        //else youre zooming out
         else {
-            if (cameraOffset < zoomMax) { //make sure you havent scrolled too far in
-                cameraOffset += zoomSpeed * Time.deltaTime; //zoom in
+            if (distanceOffset < zoomMax) { //make sure you havent scrolled too far in
+                distanceOffset += zoomSpeed * Time.deltaTime; //zoom out
             }
         }
     }
 
     void RotateAroundPlayer() {
         //take the rotation from the player on Y
-       //transform.RotateAround(_player.transform.position, Vector3.up, rotationSpeed * Time.deltaTime);
+
+        if (Input.GetAxis("Mouse X") > 0)
+        { //if you drag to the right with the mouse
+            transform.RotateAround(_player.transform.position, Vector3.up, rotationSpeed * Time.deltaTime);
+        }
+
+        if (Input.GetAxis("Mouse X") < 0)
+        { //if you drag to the right with the mouse
+            transform.RotateAround(_player.transform.position, Vector3.up, -rotationSpeed * Time.deltaTime);
+        }
     }
 }
