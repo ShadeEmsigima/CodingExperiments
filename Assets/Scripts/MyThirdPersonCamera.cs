@@ -15,7 +15,7 @@ public class MyThirdPersonCamera : MonoBehaviour
     
 
     [Tooltip("Speed at which the camera will rotate around the player")]
-    public float rotationSpeed = 300;
+    public float rotationSpeed = 500;
     private GameObject _player;
 
     void Start()
