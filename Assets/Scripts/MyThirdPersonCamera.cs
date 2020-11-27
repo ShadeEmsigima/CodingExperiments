@@ -27,7 +27,7 @@ public class MyThirdPersonCamera : MonoBehaviour
     {
         _player = GameObject.FindWithTag("Player"); //declare player pos
         //FollowPlayer(); //alwaysfollow player
-
+        
         //allow zooming
         if (Input.mouseScrollDelta != new Vector2(0f,0f)) { //if you are currently scrolling
             CheckScroll();
